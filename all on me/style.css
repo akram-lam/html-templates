@@ -1,0 +1,184 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root {
+--title-color: #181818;
+--text-color: #383838;
+--bg-color: #fff;
+}
+* {
+padding: 0;
+margin: 0;
+}
+body {
+background-color: var(--bg-color);
+font-family: 'Poetsen One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: calc(100% - 40px);
+min-height: calc(100vh - 40px);
+padding: 20px;
+padding-top: 0;
+}
+.Wrapper {
+width: 609.67px;
+height: 130px;
+position: relative;
+box-shadow: 0px 5px 12px rgba(8.24, 15.25, 52.06, 0.05);
+}
+.Rectangle2 {
+width: 609.67px;
+height: 141.28px;
+background: #D9D9D9;
+}
+.Avatar {
+left: 222.83px;
+top: 59.79px;
+position: absolute;
+}
+.Ellipse1 {
+width: 164px;
+height: 164px;
+background: #D9D9D9;
+border-radius: 9999px;border: 6px white solid;
+}
+.MaskGroup {
+width: 164px;
+height: 164px;
+left: 0px;
+top: 0px;
+position: absolute;
+}
+.parson {
+width: 100%;
+height: 100%;
+left: 5px;
+top: 5px;
+position: absolute;
+border-radius: 50%;
+border: 1px solid var(--title-color);object-fit: cover;
+}
+.profile-name {
+margin-top: 100px;
+font-size: 24px;
+color: var(--title-color);
+}
+.summary {
+color: var(--text-color);
+font-weight: 100;
+margin-top: 15px;
+text-align: center;
+}
+.social-icons {
+padding: 0;
+list-style: none;
+margin: 1em;
+}
+.social-icons li {
+display: inline-block;
+margin: 0.15em;
+position: relative;
+font-size: 1.2em;
+}
+.social-icons i {
+color: #fff;
+position: absolute;
+top: 11px;
+left: 11px;
+}
+.social-icons a {
+display: inline-block;
+}
+.social-icons a:before {
+transform: scale(1);
+-ms-transform: scale(1);
+-webkit-transform: scale(1);
+content: " ";
+width: 40px;
+height: 40px;
+border-radius: 100%;
+display: block;
+background: #000;
+}
+.social-icons a:hover:before {
+transform: scale(0);
+}
+.social-icons a:hover i {
+transform: scale(1.5);
+-ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+color: #000;
+background: #000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.list-links {
+margin-top: 20px;
+list-style: none;
+}
+.list-links > li {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+cursor: pointer;
+transition: all .3s;
+width: 397.69px;
+height: 67.34px;
+width: 397.69px;
+background: white;
+box-shadow: 0px 1.8705730438232422px 7.482292175292969px rgba(47.90, 47.98, 49.98, 0.06);
+border-radius: 74.82px;
+border: 0.94px #EFF2F6 solid;
+}
+.list-links > li > a {
+text-decoration: none;
+color: #030B1A;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+word-wrap: break-word;
+padding-left: 56.13px;
+}
+.list-links > li:hover {
+transform: translate(-5px, -5px);
+}
+#powered_by {
+width: 100%;
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+cursor: pointer;
+transition: all .3s;
+width: 397.69px;
+height: 67.34px;
+background: white;
+box-shadow: 0px 1.8705730438232422px 7.482292175292969px rgba(47.90, 47.98, 49.98, 0.06);
+border-radius: 74.82px;
+border: 0.94px #EFF2F6 solid;
+}
+#powered_by > a {
+text-decoration: none;
+color: #030B1A;
+font-size: 16px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 18px;
+word-wrap: break-word;
+padding-left: 56.13px;
+}
+#powered_by > p {
+padding-left: 16.13px;
+}
+@media screen and (max-width: 300px) {
+.list-links {
+width: 100%;
+}
+.list-links > li {
+width: 100%;
+}
+}
+
